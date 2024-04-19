@@ -11,11 +11,11 @@ public class Locators {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
         driver.get("https://rahulshettyacademy.com/locatorspractice/");
         driver.findElement(By.id("inputUsername")).sendKeys("rahul");
         driver.findElement(By.name("inputPassword")).sendKeys("hello123");
         driver.findElement(By.className("signInBtn")).click();
-
         System.out.println(driver.findElement(By.cssSelector("p.error")).getText());
         driver.findElement(By.linkText("Forgot your password?")).click();
         Thread.sleep(1000);
@@ -36,6 +36,7 @@ public class Locators {
 
 
 
+
         //Css Selector
         // class name -> tagname.classname  - p.error
         // ic -> tagname#id -> input<
@@ -44,6 +45,7 @@ public class Locators {
         // input[type='text']:nth-child(3)
         // .reset-pwd-btn   --- .classname
         // form p          ----- parentagname childtagname
+        //  .ui-state-default.ui-state-highlight.ui-state-active     -- put dat (.) after each class
 
         // Regular expresion - input[type*='pass']
 
@@ -55,7 +57,22 @@ public class Locators {
         *  //form/input[3]
         *  //button[contains(@class, 'submit')]   --- Regular expresion
         *  //div[@class = 'forgot-pwd-btn-conainer']/button[1]
-        *         * */
+        *  //button[text()='Log Out']
+        *  //*[text()='Log Out']
+        *  (//a[@value='MAA'])[2]
+        *   //DIV[@id= 'ctl00_mainContent_ddl_originStation1_CTNR'] //a[@value='BLR']     -- Traversing parent to chlid
+         */
+
+
+
+
+
+        /* Sibling - Child to parent traverse
+        *   //header/div/button[1]/following-sibling::button[1]   -- sibling traverse
+        *   //header/div/button[1]/parent::div      --- child traverse to parent
+        * */
 
     }
+
+
 }
