@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/carevalo/IdeaProjects/Selenium/src/main/java/testNGTutorial/test">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testNGTutorial.test.Test1">
+                <methods>
+                    <include name="Demo"/>
+                </methods>
+            </class>
+            <class name="testNGTutorial.test.Test2">
+                <methods>
+                    <include name="good"/>
+                </methods>
+            </class>
+            <class name="testNGTutorial.test.Test3">
+                <methods>
+                    <include name="Weblogin"/>
+                    <include name="MobileLoginLoan"/>
+                    <include name="LoginAPILoan"/>
+                    <include name="MobileLoginLoanSingIN"/>
+                    <include name="MobileLoginLoanSingOUT"/>
+                </methods>
+            </class>
+            <class name="testNGTutorial.test.Test4">
+                <methods>
+                    <include name="WebloginHome"/>
+                    <include name="MobileLoginHomeLoan"/>
+                    <include name="LoginAPIHomeLoan"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
