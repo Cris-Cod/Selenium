@@ -1,0 +1,19 @@
+
+x
+java:S1488("bImmediately return this expression instead of assigning it to the temporary variable "priceValue".(·¿ê
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†™İ
+
+java:S6204"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(êÕîÌ
+P	java:S125"<This block of commented-out lines of code should be removed.(„ãÆ
+
+java:S6204"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ÿ÷ô
+P	java:S125"<This block of commented-out lines of code should be removed.(»ö¯
+•
+java:S6204"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(Ù«µ¢ûÿÿÿÿ
+[
+java:S1612 "@Replace this lambda with method reference 'System.out::println'.(Ê­İöıÿÿÿÿ
+E	java:S106 "+Replace this use of System.out by a logger.(Ê­İöıÿÿÿÿ
+T
+java:S1155!">Use isEmpty() to check whether the collection is empty or not.(…ºÈ×
+T
+java:S1155$">Use isEmpty() to check whether the collection is empty or not.(¯Ú–ø

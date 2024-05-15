@@ -1,0 +1,7 @@
+
+]
+java:S1220""Move this file to a named package.8Õ–³Ï÷1J$5fa0fe75-21cd-47a3-b4d2-e5f548abb579
+r	java:S106"+Replace this use of System.out by a logger.(¾½Õÿÿÿÿÿ8ß–³Ï÷1J$516749c9-c21e-4a9b-bd08-3d155bf16b94
+m	java:S106"+Replace this use of System.out by a logger.(”“î€8à–³Ï÷1J$d035e32a-63ed-4449-867a-36f7f6e559a9
+
+java:S1128"FRemove this unused import 'org.openqa.selenium.firefox.FirefoxDriver'.(Úª ÿÿÿÿÿ8à–³Ï÷1J$08a6e2a9-1c1e-4bfc-97df-f83a7a0f4b58
